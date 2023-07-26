@@ -13,11 +13,11 @@ and save the file as ./deit_pretrained/best_checkpoint.pth
 # Requirements
 Please install the following packages
 ```
-	pytorch==1.7.1
-	torchvision==0.8.2
-	cudatoolkit=11.0
-	ftfy
-	timm==0.4.12
+pytorch==1.7.1
+torchvision==0.8.2
+cudatoolkit=11.0
+ftfy
+timm==0.4.12
 ```
 
 # Training
