@@ -1,0 +1,17 @@
+python main.py \
+--architecture deit_small_patch16_224 \
+--transformer adapter_hat \
+--method ROW \
+--dataset cifar100 \
+--n_tasks 10 \
+--adapter_latent 128 \
+--optimizer sgd \
+--compute_md \
+--compute_auc \
+--use_md \
+--buffer_size 2000 \
+--n_epochs 40 \
+--lr 0.001 \
+--use_buffer \
+--class_order 0 \
+--folder cifar100_10t
